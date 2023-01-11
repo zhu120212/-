@@ -1,0 +1,41 @@
+{
+	"game": {
+		"name": "厨房",
+		"appid": "634370803",
+		"cid": "0"
+	},
+	"configs": [
+		{
+			"appid": "634370803",
+			"services": [
+				{
+					"service_id": "315",
+					"enable": false
+				},
+				{
+					"service_id": "235",
+					"enable": false,
+					"params": {
+						"appid": "634370803",
+						"store_id": "",
+						"store_id_platform": "",
+						"plugin_version": "1.4.5_3.0.2"
+					}
+				},
+				{
+					"service_id": "278",
+					"enable": false
+				},
+				{
+					"service_id": "242",
+					"enable": false
+				},
+				{
+					"service_id": "351",
+					"enable": false
+				}
+			]
+		}
+	],
+	"needExecNative": true
+}
