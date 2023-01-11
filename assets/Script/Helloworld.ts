@@ -20,7 +20,7 @@ export default class Helloworld extends cc.Component {
        
         if(this.textmg.index == 6){
             this.node.active = false;
-            cc.director.loadScene("sce_home")
+            cc.director.loadScene("sce_home");
         }
         console.debug(this.enabled);
     }
